@@ -302,7 +302,36 @@ namespace PA4Draft
                 }
                 else
                 {
+                    /*
+                    String SelectedhatchStyle = pckTxtrBrsh.myWarpMode;
+                    TextureBrush newTexture = new TextureBrush(pckTxtrBrsh.smallImage);
+                    newTexture.WrapMode = WrapMode.Clamp;
 
+                    switch (SelectedhatchStyle)
+                    {
+                        case "Clamp":
+                            newTexture = new TextureBrush(p.smallImage, WrapMode.Clamp); ;
+                            break;
+                        case "Tile":
+                            newTexture = new TextureBrush(p.smallImage, WrapMode.Tile);
+                            break;
+                        case "TileFlipX":
+                            newTexture = new TextureBrush(p.smallImage, WrapMode.TileFlipX);
+                            break;
+                        case "TileFlipXY":
+                            newTexture = new TextureBrush(p.smallImage, WrapMode.TileFlipXY);
+                            break;
+                        case "TileFlipY":
+                            newTexture = new TextureBrush(p.smallImage, WrapMode.TileFlipY);
+                            break;
+                        default:
+                            break;
+                    }
+
+                    shapes[shapeList.SelectedIndex].fillBrush = newTexture;
+                    updateTileDesign();
+                    updateShapeList(shapeList.SelectedIndex);
+                    */
                 }
             }
         }
