@@ -301,37 +301,40 @@ namespace PA4Draft
                     return;
                 }
                 else
-                {
-                    /*
-                    String SelectedhatchStyle = pckTxtrBrsh.myWarpMode;
-                    TextureBrush newTexture = new TextureBrush(pckTxtrBrsh.smallImage);
-                    newTexture.WrapMode = WrapMode.Clamp;
+                {   
+                    // Variable Declaration.
+                    String HatchStyle = pckTxtrBrsh.WarpModeValue;
+                    TextureBrush selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject);
 
-                    switch (SelectedhatchStyle)
+                    // Getting the mode.
+                    selectedTexture.WrapMode = WrapMode.Clamp;
+
+                    // Set the property accordingly.
+                    switch (HatchStyle)
                     {
                         case "Clamp":
-                            newTexture = new TextureBrush(p.smallImage, WrapMode.Clamp); ;
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.Clamp); ;
                             break;
                         case "Tile":
-                            newTexture = new TextureBrush(p.smallImage, WrapMode.Tile);
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.Tile);
                             break;
                         case "TileFlipX":
-                            newTexture = new TextureBrush(p.smallImage, WrapMode.TileFlipX);
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.TileFlipX);
                             break;
                         case "TileFlipXY":
-                            newTexture = new TextureBrush(p.smallImage, WrapMode.TileFlipXY);
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.TileFlipXY);
                             break;
                         case "TileFlipY":
-                            newTexture = new TextureBrush(p.smallImage, WrapMode.TileFlipY);
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.TileFlipY);
                             break;
                         default:
                             break;
                     }
 
-                    shapes[shapeList.SelectedIndex].fillBrush = newTexture;
+                    // Set the Updates for the value.
+                    shapes[shapeList.SelectedIndex].fillBrush = selectedTexture;
                     updateTileDesign();
-                    updateShapeList(shapeList.SelectedIndex);
-                    */
+                    updateShapeList(shapeList.SelectedIndex);                    
                 }
             }
         }
