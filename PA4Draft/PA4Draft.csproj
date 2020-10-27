@@ -124,6 +124,9 @@
     <EmbeddedResource Include="PickSolidBrush.resx">
       <DependentUpon>PickSolidBrush.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PickTextureBrush.resx">
+      <DependentUpon>PickTextureBrush.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Preview.resx">
       <DependentUpon>Preview.cs</DependentUpon>
     </EmbeddedResource>
