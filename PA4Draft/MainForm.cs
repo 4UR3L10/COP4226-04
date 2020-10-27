@@ -309,12 +309,56 @@ namespace PA4Draft
 
         private void hatchBrushToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            /*
+                Dialog for “Hatch Brush”: inputs HatchStyle(using ListBox or other controls), Fore -
+                groundColor and BackgroundColor(using ColorDialog)
+            */
+            if (shapeList.SelectedIndex < 0)
+            {
+                return;
+            }
+            else
+            {
+                PickHatchBrush pckTxtrBrsh = new PickHatchBrush();
+                DialogResult d = pckTxtrBrsh.ShowDialog();
 
+                if (d != DialogResult.OK)
+                {
+                    return;
+                }
+                else
+                {
+
+                }
+            }
         }
 
         private void linearGradientBrushToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            /*
+                Dialog for “Linear Gradient Brush”: inputs a Rectangle that specifies the bound of the
+                linear gradient(using NumericUpDown objects or other controls), the starting color for            
+                the gradient(using ColorDialog), the ending color for the gradient (using ColorDialog),
+                and linear gradient mode(using RadioButtons or other controls)
+            */
+            if (shapeList.SelectedIndex < 0)
+            {
+                return;
+            }
+            else
+            {
+                PickLinearGradientBrush pckTxtrBrsh = new PickLinearGradientBrush();
+                DialogResult d = pckTxtrBrsh.ShowDialog();
 
+                if (d != DialogResult.OK)
+                {
+                    return;
+                }
+                else
+                {
+
+                }
+            }
         }
     }
 }
