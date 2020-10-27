@@ -336,6 +336,7 @@ namespace PA4Draft
         private void linearGradientBrushToolStripMenuItem_Click(object sender, EventArgs e)
         {
             /*
+             * 
                 Dialog for “Linear Gradient Brush”: inputs a Rectangle that specifies the bound of the
                 linear gradient(using NumericUpDown objects or other controls), the starting color for            
                 the gradient(using ColorDialog), the ending color for the gradient (using ColorDialog),
