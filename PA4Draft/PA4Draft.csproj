@@ -70,6 +70,18 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PickHatchBrush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PickHatchBrush.Designer.cs">
+      <DependentUpon>PickHatchBrush.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PickLinearGradientBrush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PickLinearGradientBrush.Designer.cs">
+      <DependentUpon>PickLinearGradientBrush.cs</DependentUpon>
+    </Compile>
     <Compile Include="PickSolidBrush.cs">
       <SubType>Form</SubType>
     </Compile>
