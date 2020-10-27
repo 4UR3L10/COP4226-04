@@ -301,8 +301,40 @@ namespace PA4Draft
                     return;
                 }
                 else
-                {
+                {   
+                    // Variable Declaration.
+                    String HatchStyle = pckTxtrBrsh.WarpModeValue;
+                    TextureBrush selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject);
 
+                    // Getting the mode.
+                    selectedTexture.WrapMode = WrapMode.Clamp;
+
+                    // Set the property accordingly.
+                    switch (HatchStyle)
+                    {
+                        case "Clamp":
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.Clamp); ;
+                            break;
+                        case "Tile":
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.Tile);
+                            break;
+                        case "TileFlipX":
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.TileFlipX);
+                            break;
+                        case "TileFlipXY":
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.TileFlipXY);
+                            break;
+                        case "TileFlipY":
+                            selectedTexture = new TextureBrush(pckTxtrBrsh.imageObject, WrapMode.TileFlipY);
+                            break;
+                        default:
+                            break;
+                    }
+
+                    // Set the Updates for the value.
+                    shapes[shapeList.SelectedIndex].fillBrush = selectedTexture;
+                    updateTileDesign();
+                    updateShapeList(shapeList.SelectedIndex);                    
                 }
             }
         }
