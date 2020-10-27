@@ -121,6 +121,12 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PickHatchBrush.resx">
+      <DependentUpon>PickHatchBrush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PickLinearGradientBrush.resx">
+      <DependentUpon>PickLinearGradientBrush.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PickSolidBrush.resx">
       <DependentUpon>PickSolidBrush.cs</DependentUpon>
     </EmbeddedResource>
