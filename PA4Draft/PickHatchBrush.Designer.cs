@@ -33,7 +33,7 @@ namespace PA4Draft
             this.label1 = new System.Windows.Forms.Label();
             this.labelOpacityForegroundHatchBrush = new System.Windows.Forms.Label();
             this.labelOpacityBackgroundHatchBrush = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxHatchStylePickHatchBrush = new System.Windows.Forms.ComboBox();
             this.trackBarOpacityBackgroundPickHatchBrush = new System.Windows.Forms.TrackBar();
             this.trackBarOpacityForegoundPickHatchBrush = new System.Windows.Forms.TrackBar();
             this.buttonBackgroundColorPickHatchBrush = new System.Windows.Forms.Button();
@@ -78,14 +78,70 @@ namespace PA4Draft
             this.labelOpacityBackgroundHatchBrush.TabIndex = 0;
             this.labelOpacityBackgroundHatchBrush.Text = "Opacity";
             // 
-            // comboBox1
+            // comboBoxHatchStylePickHatchBrush
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(294, 76);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(7);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(555, 37);
-            this.comboBox1.TabIndex = 1;
+            this.comboBoxHatchStylePickHatchBrush.FormattingEnabled = true;
+            this.comboBoxHatchStylePickHatchBrush.Items.AddRange(new object[] {
+            "BackwardDiagonal",
+            "Cross",
+            "DarkDownwardDiagonal",
+            "DarkHorizontal",
+            "DarkUpwardDiagonal",
+            "DarkVertical",
+            "DashedDownwardDiagonal",
+            "DashedHorizontal",
+            "DashedUpwardDiagonal",
+            "DashedVertical",
+            "DiagonalBrick",
+            "DiagonalCross",
+            "Divot",
+            "DottedDiamond",
+            "DottedGrid",
+            "ForwardDiagonal",
+            "Horizontal",
+            "HorizontalBrick",
+            "LargeCheckerBoard",
+            "LargeConfetti",
+            "LargeGrid",
+            "LightDownwardDiagonal",
+            "LightHorizontal",
+            "LightUpwardDiagonal",
+            "LightVertical",
+            "Max",
+            "Min",
+            "NarrowHorizontal",
+            "NarrowVertical",
+            "OutlinedDiamond",
+            "Percent05",
+            "Percent10",
+            "Percent20",
+            "Percent25",
+            "Percent30",
+            "Percent40",
+            "Percent50",
+            "Percent60",
+            "Percent70",
+            "Percent75",
+            "Percent80",
+            "Percent90",
+            "Plaid",
+            "Shingle",
+            "SmallCheckerBoard",
+            "SmallConfetti",
+            "SmallGrid",
+            "SolidDiamond",
+            "Sphere",
+            "Trellis",
+            "Vertical",
+            "Wave",
+            "Weave",
+            "WideDownwardDiagonal",
+            "WideUpwardDiagonal",
+            "ZigZag"});
+            this.comboBoxHatchStylePickHatchBrush.Location = new System.Drawing.Point(126, 34);
+            this.comboBoxHatchStylePickHatchBrush.Name = "comboBoxHatchStylePickHatchBrush";
+            this.comboBoxHatchStylePickHatchBrush.Size = new System.Drawing.Size(240, 21);
+            this.comboBoxHatchStylePickHatchBrush.TabIndex = 1;
             // 
             // trackBarOpacityBackgroundPickHatchBrush
             // 
@@ -166,7 +222,7 @@ namespace PA4Draft
             this.Controls.Add(this.trackBarOpacityForegoundPickHatchBrush);
             this.Controls.Add(this.buttonBackgroundColorPickHatchBrush);
             this.Controls.Add(this.buttonForegroundColorPickHatchBrushBrush);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBoxHatchStylePickHatchBrush);
             this.Controls.Add(this.labelOpacityBackgroundHatchBrush);
             this.Controls.Add(this.labelOpacityForegroundHatchBrush);
             this.Controls.Add(this.label1);
@@ -185,7 +241,7 @@ namespace PA4Draft
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelOpacityForegroundHatchBrush;
         private System.Windows.Forms.Label labelOpacityBackgroundHatchBrush;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxHatchStylePickHatchBrush;
         private System.Windows.Forms.TrackBar trackBarOpacityBackgroundPickHatchBrush;
         private System.Windows.Forms.TrackBar trackBarOpacityForegoundPickHatchBrush;
         private System.Windows.Forms.Button buttonBackgroundColorPickHatchBrush;

@@ -16,5 +16,15 @@ namespace PA4Draft
         {
             InitializeComponent();
         }
+
+        private void buttonCancelPickLinearGradientBrush_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonOKPickLinearGradientBrush_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
