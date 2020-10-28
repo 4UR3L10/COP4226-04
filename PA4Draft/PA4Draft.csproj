@@ -70,6 +70,18 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PickHatchBrush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PickHatchBrush.Designer.cs">
+      <DependentUpon>PickHatchBrush.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PickLinearGradientBrush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PickLinearGradientBrush.Designer.cs">
+      <DependentUpon>PickLinearGradientBrush.cs</DependentUpon>
+    </Compile>
     <Compile Include="PickSolidBrush.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,8 +121,17 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PickHatchBrush.resx">
+      <DependentUpon>PickHatchBrush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PickLinearGradientBrush.resx">
+      <DependentUpon>PickLinearGradientBrush.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PickSolidBrush.resx">
       <DependentUpon>PickSolidBrush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PickTextureBrush.resx">
+      <DependentUpon>PickTextureBrush.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Preview.resx">
       <DependentUpon>Preview.cs</DependentUpon>
