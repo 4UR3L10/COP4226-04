@@ -110,8 +110,10 @@
             // 
             // PickTextureBrush
             // 
+            this.AcceptButton = this.buttonOKPickHatchBrush;
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.buttonCancelPickHatchBrush;
             this.ClientSize = new System.Drawing.Size(1867, 1004);
             this.Controls.Add(this.buttonCancelPickHatchBrush);
             this.Controls.Add(this.buttonOKPickHatchBrush);
