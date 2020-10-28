@@ -360,7 +360,190 @@ namespace PA4Draft
                 }
                 else
                 {
+                    Color foreColor = pckTxtrBrsh.colorBackground;
+                    Color backColor = pckTxtrBrsh.colorForeground;
+                    String SelectedhatchStyle = pckTxtrBrsh.StyleValue;
 
+                    HatchStyle foundHatchStyle = HatchStyle.BackwardDiagonal;
+
+                    switch (SelectedhatchStyle)
+                    {
+                        case "BackwardDiagonal":
+                            foundHatchStyle = HatchStyle.BackwardDiagonal;
+                            break;
+                        case "Cross":
+                            foundHatchStyle = HatchStyle.Cross;
+                            break;
+                        case "DarkDownwardDiagonal":
+                            foundHatchStyle = HatchStyle.DarkDownwardDiagonal;
+                            break;
+                        case "DarkHorizontal":
+                            foundHatchStyle = HatchStyle.DarkHorizontal;
+                            break;
+                        case "DarkUpwardDiagonal":
+                            foundHatchStyle = HatchStyle.DarkUpwardDiagonal;
+                            break;
+                        case "DarkVertical":
+                            foundHatchStyle = HatchStyle.DarkVertical;
+                            break;
+                        case "DashedDownwardDiagonal":
+                            foundHatchStyle = HatchStyle.DashedDownwardDiagonal;
+                            break;
+                        case "DashedHorizontal":
+                            foundHatchStyle = HatchStyle.DashedHorizontal;
+                            break;
+                        case "DashedUpwardDiagonal":
+                            foundHatchStyle = HatchStyle.DashedUpwardDiagonal;
+                            break;
+                        case "DashedVertical":
+                            foundHatchStyle = HatchStyle.DashedVertical;
+                            break;
+                        case "DiagonalBrick":
+                            foundHatchStyle = HatchStyle.DiagonalBrick;
+                            break;
+                        case "DiagonalCross":
+                            foundHatchStyle = HatchStyle.DiagonalCross;
+                            break;
+                        case "Divot":
+                            foundHatchStyle = HatchStyle.Divot;
+                            break;
+                        case "DottedDiamond":
+                            foundHatchStyle = HatchStyle.DottedDiamond;
+                            break;
+                        case "DottedGrid":
+                            foundHatchStyle = HatchStyle.DottedGrid;
+                            break;
+                        case "ForwardDiagonal":
+                            foundHatchStyle = HatchStyle.ForwardDiagonal;
+                            break;
+                        case "Horizontal":
+                            foundHatchStyle = HatchStyle.Horizontal;
+                            break;
+                        case "HorizontalBrick":
+                            foundHatchStyle = HatchStyle.HorizontalBrick;
+                            break;
+                        case "LargeCheckerBoard":
+                            foundHatchStyle = HatchStyle.LargeCheckerBoard;
+                            break;
+                        case "LargeConfetti":
+                            foundHatchStyle = HatchStyle.LargeConfetti;
+                            break;
+                        case "LargeGrid":
+                            foundHatchStyle = HatchStyle.LargeGrid;
+                            break;
+                        case "LightDownwardDiagonal":
+                            foundHatchStyle = HatchStyle.LightDownwardDiagonal;
+                            break;
+                        case "LightHorizontal":
+                            foundHatchStyle = HatchStyle.LightHorizontal;
+                            break;
+                        case "LightUpwardDiagonal":
+                            foundHatchStyle = HatchStyle.LightUpwardDiagonal;
+                            break;
+                        case "LightVertical":
+                            foundHatchStyle = HatchStyle.LightVertical;
+                            break;
+                        case "Max":
+                            foundHatchStyle = HatchStyle.Max;
+                            break;
+                        case "Min":
+                            foundHatchStyle = HatchStyle.Min;
+                            break;
+                        case "NarrowHorizontal":
+                            foundHatchStyle = HatchStyle.NarrowHorizontal;
+                            break;
+                        case "NarrowVertical":
+                            foundHatchStyle = HatchStyle.NarrowVertical;
+                            break;
+                        case "OutlinedDiamond":
+                            foundHatchStyle = HatchStyle.OutlinedDiamond;
+                            break;
+                        case "Percent05":
+                            foundHatchStyle = HatchStyle.Percent05;
+                            break;
+                        case "Percent10":
+                            foundHatchStyle = HatchStyle.Percent10;
+                            break;
+                        case "Percent20":
+                            foundHatchStyle = HatchStyle.Percent20;
+                            break;
+                        case "Percent25":
+                            foundHatchStyle = HatchStyle.Percent25;
+                            break;
+                        case "Percent30":
+                            foundHatchStyle = HatchStyle.Percent30;
+                            break;
+                        case "Percent40":
+                            foundHatchStyle = HatchStyle.Percent40;
+                            break;
+                        case "Percent50":
+                            foundHatchStyle = HatchStyle.Percent50;
+                            break;
+                        case "Percent60":
+                            foundHatchStyle = HatchStyle.Percent60;
+                            break;
+                        case "Percent70":
+                            foundHatchStyle = HatchStyle.Percent70;
+                            break;
+                        case "Percent75":
+                            foundHatchStyle = HatchStyle.Percent75;
+                            break;
+                        case "Percent80":
+                            foundHatchStyle = HatchStyle.Percent80;
+                            break;
+                        case "Percent90":
+                            foundHatchStyle = HatchStyle.Percent90;
+                            break;
+                        case "Plaid":
+                            foundHatchStyle = HatchStyle.Plaid;
+                            break;
+                        case "Shingle":
+                            foundHatchStyle = HatchStyle.Shingle;
+                            break;
+                        case "SmallCheckerBoard":
+                            foundHatchStyle = HatchStyle.SmallCheckerBoard;
+                            break;
+                        case "SmallConfetti":
+                            foundHatchStyle = HatchStyle.SmallConfetti;
+                            break;
+                        case "SmallGrid":
+                            foundHatchStyle = HatchStyle.SmallGrid;
+                            break;
+                        case "SolidDiamond":
+                            foundHatchStyle = HatchStyle.SolidDiamond;
+                            break;
+                        case "Sphere":
+                            foundHatchStyle = HatchStyle.Sphere;
+                            break;
+                        case "Trellis":
+                            foundHatchStyle = HatchStyle.Trellis;
+                            break;
+                        case "Vertical":
+                            foundHatchStyle = HatchStyle.Vertical;
+                            break;
+                        case "Wave":
+                            foundHatchStyle = HatchStyle.Wave;
+                            break;
+                        case "Weave":
+                            foundHatchStyle = HatchStyle.Weave;
+                            break;
+                        case "WideDownwardDiagonal":
+                            foundHatchStyle = HatchStyle.WideDownwardDiagonal;
+                            break;
+                        case "WideUpwardDiagonal":
+                            foundHatchStyle = HatchStyle.WideUpwardDiagonal;
+                            break;
+                        case "ZigZag":
+                            foundHatchStyle = HatchStyle.ZigZag;
+                            break;
+                        default:
+                            break;
+                    }
+
+                    //HatchStyle hatchStylePicked = HatchStyle.hatchStyle;
+                    shapes[shapeList.SelectedIndex].fillBrush = new HatchBrush(foundHatchStyle, foreColor, backColor);
+                    updateTileDesign();
+                    updateShapeList(shapeList.SelectedIndex);
                 }
             }
         }
