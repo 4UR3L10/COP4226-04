@@ -45,6 +45,8 @@
             this.numericUpDownYLocation = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownWidth = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownHeight = new System.Windows.Forms.NumericUpDown();
+            this.labelModePickGradientBrush = new System.Windows.Forms.Label();
+            this.comboBoxModesPickLinearGradientBrush = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarOpacityStartColorPickLinearGradientBrush)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarOpacityEndColorPickLinearGradientBrush)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownXLocation)).BeginInit();
@@ -122,22 +124,24 @@
             // buttonCancelPickLinearGradientBrush
             // 
             this.buttonCancelPickLinearGradientBrush.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancelPickLinearGradientBrush.Location = new System.Drawing.Point(312, 395);
+            this.buttonCancelPickLinearGradientBrush.Location = new System.Drawing.Point(312, 449);
             this.buttonCancelPickLinearGradientBrush.Name = "buttonCancelPickLinearGradientBrush";
             this.buttonCancelPickLinearGradientBrush.Size = new System.Drawing.Size(75, 23);
             this.buttonCancelPickLinearGradientBrush.TabIndex = 9;
             this.buttonCancelPickLinearGradientBrush.Text = "Cancel";
             this.buttonCancelPickLinearGradientBrush.UseVisualStyleBackColor = true;
+            this.buttonCancelPickLinearGradientBrush.Click += new System.EventHandler(this.buttonCancelPickLinearGradientBrush_Click);
             // 
             // buttonOKPickLinearGradientBrush
             // 
             this.buttonOKPickLinearGradientBrush.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.buttonOKPickLinearGradientBrush.Location = new System.Drawing.Point(43, 384);
+            this.buttonOKPickLinearGradientBrush.Location = new System.Drawing.Point(43, 438);
             this.buttonOKPickLinearGradientBrush.Name = "buttonOKPickLinearGradientBrush";
             this.buttonOKPickLinearGradientBrush.Size = new System.Drawing.Size(75, 23);
             this.buttonOKPickLinearGradientBrush.TabIndex = 8;
             this.buttonOKPickLinearGradientBrush.Text = "OK";
             this.buttonOKPickLinearGradientBrush.UseVisualStyleBackColor = true;
+            this.buttonOKPickLinearGradientBrush.Click += new System.EventHandler(this.buttonOKPickLinearGradientBrush_Click);
             // 
             // buttonStartColorPickLinearGradientBrush
             // 
@@ -208,11 +212,39 @@
             this.numericUpDownHeight.Size = new System.Drawing.Size(48, 20);
             this.numericUpDownHeight.TabIndex = 23;
             // 
+            // labelModePickGradientBrush
+            // 
+            this.labelModePickGradientBrush.AutoSize = true;
+            this.labelModePickGradientBrush.Location = new System.Drawing.Point(41, 357);
+            this.labelModePickGradientBrush.Name = "labelModePickGradientBrush";
+            this.labelModePickGradientBrush.Size = new System.Drawing.Size(39, 13);
+            this.labelModePickGradientBrush.TabIndex = 25;
+            this.labelModePickGradientBrush.Text = "Modes";
+            // 
+            // comboBoxModesPickLinearGradientBrush
+            // 
+            this.comboBoxModesPickLinearGradientBrush.FormattingEnabled = true;
+            this.comboBoxModesPickLinearGradientBrush.Items.AddRange(new object[] {
+            "BackwardDiagonal",
+            "ForwardDiagonal",
+            "Horizontal",
+            "Vertical",
+            "",
+            ""});
+            this.comboBoxModesPickLinearGradientBrush.Location = new System.Drawing.Point(115, 349);
+            this.comboBoxModesPickLinearGradientBrush.Name = "comboBoxModesPickLinearGradientBrush";
+            this.comboBoxModesPickLinearGradientBrush.Size = new System.Drawing.Size(227, 21);
+            this.comboBoxModesPickLinearGradientBrush.TabIndex = 24;
+            // 
             // PickLinearGradientBrush
             // 
+            this.AcceptButton = this.buttonOKPickLinearGradientBrush;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.buttonCancelPickLinearGradientBrush;
             this.ClientSize = new System.Drawing.Size(800, 518);
+            this.Controls.Add(this.labelModePickGradientBrush);
+            this.Controls.Add(this.comboBoxModesPickLinearGradientBrush);
             this.Controls.Add(this.numericUpDownYLocation);
             this.Controls.Add(this.numericUpDownHeight);
             this.Controls.Add(this.numericUpDownWidth);
@@ -262,5 +294,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDownYLocation;
         private System.Windows.Forms.NumericUpDown numericUpDownWidth;
         private System.Windows.Forms.NumericUpDown numericUpDownHeight;
+        private System.Windows.Forms.Label labelModePickGradientBrush;
+        private System.Windows.Forms.ComboBox comboBoxModesPickLinearGradientBrush;
     }
 }
