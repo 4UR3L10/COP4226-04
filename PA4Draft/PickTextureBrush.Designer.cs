@@ -121,7 +121,6 @@
             this.Text = "PickTextureBrush";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
