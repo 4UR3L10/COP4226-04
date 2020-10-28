@@ -92,8 +92,8 @@ namespace PA4Draft
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(2170, 46);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(995, 43);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -108,34 +108,34 @@ namespace PA4Draft
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(59, 40);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(49, 40);
             this.toolStripDropDownButton1.Text = "Signature";
             // 
             // addASignatureToolStripMenuItem
             // 
             this.addASignatureToolStripMenuItem.Name = "addASignatureToolStripMenuItem";
-            this.addASignatureToolStripMenuItem.Size = new System.Drawing.Size(428, 48);
+            this.addASignatureToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.addASignatureToolStripMenuItem.Text = "Add/update signature";
             this.addASignatureToolStripMenuItem.Click += new System.EventHandler(this.AddSignature_Click);
             // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(428, 48);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.viewToolStripMenuItem.Text = "View signature";
             this.viewToolStripMenuItem.Click += new System.EventHandler(this.ViewSignature_Click);
             // 
             // saveSignatureAsToolStripMenuItem
             // 
             this.saveSignatureAsToolStripMenuItem.Name = "saveSignatureAsToolStripMenuItem";
-            this.saveSignatureAsToolStripMenuItem.Size = new System.Drawing.Size(428, 48);
+            this.saveSignatureAsToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.saveSignatureAsToolStripMenuItem.Text = "Save signature as...";
             this.saveSignatureAsToolStripMenuItem.Click += new System.EventHandler(this.saveSignatureAsToolStripMenuItem_Click);
             // 
             // removeSignatureToolStripMenuItem
             // 
             this.removeSignatureToolStripMenuItem.Name = "removeSignatureToolStripMenuItem";
-            this.removeSignatureToolStripMenuItem.Size = new System.Drawing.Size(428, 48);
+            this.removeSignatureToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.removeSignatureToolStripMenuItem.Text = "Remove signature";
             this.removeSignatureToolStripMenuItem.Click += new System.EventHandler(this.RemoveSignature_Click);
             // 
@@ -149,7 +149,7 @@ namespace PA4Draft
             this.mirroring.Image = ((System.Drawing.Image)(resources.GetObject("mirroring.Image")));
             this.mirroring.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mirroring.Name = "mirroring";
-            this.mirroring.Size = new System.Drawing.Size(59, 40);
+            this.mirroring.Size = new System.Drawing.Size(49, 40);
             this.mirroring.Text = "Tile Mirroring Style";
             // 
             // defaultMirroring
@@ -157,21 +157,21 @@ namespace PA4Draft
             this.defaultMirroring.Checked = true;
             this.defaultMirroring.CheckState = System.Windows.Forms.CheckState.Checked;
             this.defaultMirroring.Name = "defaultMirroring";
-            this.defaultMirroring.Size = new System.Drawing.Size(431, 48);
+            this.defaultMirroring.Size = new System.Drawing.Size(192, 22);
             this.defaultMirroring.Text = "Default (No Mirroring)";
             this.defaultMirroring.Click += new System.EventHandler(this.Default_Click);
             // 
             // xAxisMirroring
             // 
             this.xAxisMirroring.Name = "xAxisMirroring";
-            this.xAxisMirroring.Size = new System.Drawing.Size(431, 48);
+            this.xAxisMirroring.Size = new System.Drawing.Size(192, 22);
             this.xAxisMirroring.Text = "X-Axis";
             this.xAxisMirroring.Click += new System.EventHandler(this.XAxis_Click);
             // 
             // yAxisMirroring
             // 
             this.yAxisMirroring.Name = "yAxisMirroring";
-            this.yAxisMirroring.Size = new System.Drawing.Size(431, 48);
+            this.yAxisMirroring.Size = new System.Drawing.Size(192, 22);
             this.yAxisMirroring.Text = "Y-Axis";
             this.yAxisMirroring.Click += new System.EventHandler(this.YAxis_Click);
             // 
@@ -182,7 +182,7 @@ namespace PA4Draft
             this.deleteButton.Image = ((System.Drawing.Image)(resources.GetObject("deleteButton.Image")));
             this.deleteButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(52, 40);
+            this.deleteButton.Size = new System.Drawing.Size(40, 40);
             this.deleteButton.Text = "Delete selected shape";
             this.deleteButton.Click += new System.EventHandler(this.DeleteButton_Click);
             // 
@@ -198,35 +198,35 @@ namespace PA4Draft
             this.brushButtons.Image = ((System.Drawing.Image)(resources.GetObject("brushButtons.Image")));
             this.brushButtons.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.brushButtons.Name = "brushButtons";
-            this.brushButtons.Size = new System.Drawing.Size(59, 40);
+            this.brushButtons.Size = new System.Drawing.Size(49, 40);
             this.brushButtons.Text = "Brush a shape";
             // 
             // solidBrushToolStripMenuItem
             // 
             this.solidBrushToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("solidBrushToolStripMenuItem.Image")));
             this.solidBrushToolStripMenuItem.Name = "solidBrushToolStripMenuItem";
-            this.solidBrushToolStripMenuItem.Size = new System.Drawing.Size(421, 48);
+            this.solidBrushToolStripMenuItem.Size = new System.Drawing.Size(207, 42);
             this.solidBrushToolStripMenuItem.Text = "Solid Brush";
             this.solidBrushToolStripMenuItem.Click += new System.EventHandler(this.SolidBrush_Click);
             // 
             // textureBrushToolStripMenuItem
             // 
             this.textureBrushToolStripMenuItem.Name = "textureBrushToolStripMenuItem";
-            this.textureBrushToolStripMenuItem.Size = new System.Drawing.Size(421, 48);
+            this.textureBrushToolStripMenuItem.Size = new System.Drawing.Size(207, 42);
             this.textureBrushToolStripMenuItem.Text = "Texture Brush";
             this.textureBrushToolStripMenuItem.Click += new System.EventHandler(this.textureBrushToolStripMenuItem_Click);
             // 
             // hatchBrushToolStripMenuItem
             // 
             this.hatchBrushToolStripMenuItem.Name = "hatchBrushToolStripMenuItem";
-            this.hatchBrushToolStripMenuItem.Size = new System.Drawing.Size(421, 48);
+            this.hatchBrushToolStripMenuItem.Size = new System.Drawing.Size(207, 42);
             this.hatchBrushToolStripMenuItem.Text = "Hatch Brush";
             this.hatchBrushToolStripMenuItem.Click += new System.EventHandler(this.hatchBrushToolStripMenuItem_Click);
             // 
             // linearGradientBrushToolStripMenuItem
             // 
             this.linearGradientBrushToolStripMenuItem.Name = "linearGradientBrushToolStripMenuItem";
-            this.linearGradientBrushToolStripMenuItem.Size = new System.Drawing.Size(421, 48);
+            this.linearGradientBrushToolStripMenuItem.Size = new System.Drawing.Size(207, 42);
             this.linearGradientBrushToolStripMenuItem.Text = "Linear Gradient Brush";
             this.linearGradientBrushToolStripMenuItem.Click += new System.EventHandler(this.linearGradientBrushToolStripMenuItem_Click);
             // 
@@ -236,7 +236,7 @@ namespace PA4Draft
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(52, 40);
+            this.toolStripButton1.Size = new System.Drawing.Size(40, 40);
             this.toolStripButton1.Text = "Save";
             this.toolStripButton1.Click += new System.EventHandler(this.Save_Click);
             // 
@@ -247,30 +247,27 @@ namespace PA4Draft
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(65, 80);
-            this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label1.Location = new System.Drawing.Point(28, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 29);
+            this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Tile Pattern";
             // 
             // tileDesign
             // 
             this.tileDesign.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.tileDesign.Location = new System.Drawing.Point(72, 138);
-            this.tileDesign.Margin = new System.Windows.Forms.Padding(7);
+            this.tileDesign.Location = new System.Drawing.Point(31, 62);
             this.tileDesign.Name = "tileDesign";
-            this.tileDesign.Size = new System.Drawing.Size(1195, 1142);
+            this.tileDesign.Size = new System.Drawing.Size(512, 512);
             this.tileDesign.TabIndex = 4;
             this.tileDesign.TabStop = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1316, 80);
-            this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label2.Location = new System.Drawing.Point(564, 36);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 29);
+            this.label2.Size = new System.Drawing.Size(74, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "List of Shapes";
             // 
@@ -278,11 +275,9 @@ namespace PA4Draft
             // 
             this.shapeList.FormattingEnabled = true;
             this.shapeList.HorizontalScrollbar = true;
-            this.shapeList.ItemHeight = 29;
-            this.shapeList.Location = new System.Drawing.Point(1323, 138);
-            this.shapeList.Margin = new System.Windows.Forms.Padding(7);
+            this.shapeList.Location = new System.Drawing.Point(567, 62);
             this.shapeList.Name = "shapeList";
-            this.shapeList.Size = new System.Drawing.Size(720, 381);
+            this.shapeList.Size = new System.Drawing.Size(311, 173);
             this.shapeList.TabIndex = 6;
             this.shapeList.SelectedIndexChanged += new System.EventHandler(this.ShapeList_SelectedIndexChanged);
             // 
@@ -291,26 +286,24 @@ namespace PA4Draft
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(36, 36);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 1299);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 584);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 33, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(2170, 48);
+            this.statusStrip1.Size = new System.Drawing.Size(995, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(434, 37);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(191, 17);
             this.toolStripStatusLabel1.Text = "Add a new shape to the tile pattern";
             // 
             // addShapeButton
             // 
             this.addShapeButton.Enabled = false;
-            this.addShapeButton.Location = new System.Drawing.Point(1745, 564);
-            this.addShapeButton.Margin = new System.Windows.Forms.Padding(7);
+            this.addShapeButton.Location = new System.Drawing.Point(748, 253);
             this.addShapeButton.Name = "addShapeButton";
-            this.addShapeButton.Size = new System.Drawing.Size(303, 51);
+            this.addShapeButton.Size = new System.Drawing.Size(130, 23);
             this.addShapeButton.TabIndex = 8;
             this.addShapeButton.Text = "Add New Shape to Tile";
             this.addShapeButton.UseVisualStyleBackColor = true;
@@ -318,15 +311,14 @@ namespace PA4Draft
             // 
             // repsPerRow
             // 
-            this.repsPerRow.Location = new System.Drawing.Point(1323, 794);
-            this.repsPerRow.Margin = new System.Windows.Forms.Padding(7);
+            this.repsPerRow.Location = new System.Drawing.Point(567, 356);
             this.repsPerRow.Minimum = new decimal(new int[] {
             3,
             0,
             0,
             0});
             this.repsPerRow.Name = "repsPerRow";
-            this.repsPerRow.Size = new System.Drawing.Size(114, 35);
+            this.repsPerRow.Size = new System.Drawing.Size(49, 20);
             this.repsPerRow.TabIndex = 9;
             this.repsPerRow.Value = new decimal(new int[] {
             12,
@@ -337,34 +329,31 @@ namespace PA4Draft
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1316, 758);
-            this.label3.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label3.Location = new System.Drawing.Point(564, 340);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(285, 29);
+            this.label3.Size = new System.Drawing.Size(125, 13);
             this.label3.TabIndex = 11;
             this.label3.Text = "Number of Tiles Per Row";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1316, 861);
-            this.label4.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label4.Location = new System.Drawing.Point(564, 386);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(319, 29);
+            this.label4.Size = new System.Drawing.Size(138, 13);
             this.label4.TabIndex = 13;
             this.label4.Text = "Number of Tiles Per Column";
             // 
             // repsPerColumn
             // 
-            this.repsPerColumn.Location = new System.Drawing.Point(1323, 897);
-            this.repsPerColumn.Margin = new System.Windows.Forms.Padding(7);
+            this.repsPerColumn.Location = new System.Drawing.Point(567, 402);
             this.repsPerColumn.Minimum = new decimal(new int[] {
             2,
             0,
             0,
             0});
             this.repsPerColumn.Name = "repsPerColumn";
-            this.repsPerColumn.Size = new System.Drawing.Size(114, 35);
+            this.repsPerColumn.Size = new System.Drawing.Size(49, 20);
             this.repsPerColumn.TabIndex = 12;
             this.repsPerColumn.Value = new decimal(new int[] {
             8,
@@ -378,10 +367,9 @@ namespace PA4Draft
             this.shapeType.Items.AddRange(new object[] {
             "Ellipse",
             "Rectangle"});
-            this.shapeType.Location = new System.Drawing.Point(1323, 569);
-            this.shapeType.Margin = new System.Windows.Forms.Padding(7);
+            this.shapeType.Location = new System.Drawing.Point(567, 255);
             this.shapeType.Name = "shapeType";
-            this.shapeType.Size = new System.Drawing.Size(277, 37);
+            this.shapeType.Size = new System.Drawing.Size(121, 21);
             this.shapeType.TabIndex = 14;
             this.shapeType.Text = "Choose Shape Type";
             this.shapeType.SelectedIndexChanged += new System.EventHandler(this.shapeType_SelectedIndexChanged);
@@ -392,10 +380,9 @@ namespace PA4Draft
             this.preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.preview.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.preview.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.preview.Location = new System.Drawing.Point(1815, 758);
-            this.preview.Margin = new System.Windows.Forms.Padding(7);
+            this.preview.Location = new System.Drawing.Point(778, 340);
             this.preview.Name = "preview";
-            this.preview.Size = new System.Drawing.Size(233, 223);
+            this.preview.Size = new System.Drawing.Size(100, 100);
             this.preview.TabIndex = 15;
             this.preview.Text = "Preview";
             this.preview.UseVisualStyleBackColor = true;
@@ -404,17 +391,15 @@ namespace PA4Draft
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1316, 1091);
-            this.label5.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label5.Location = new System.Drawing.Point(564, 489);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(199, 29);
+            this.label5.Size = new System.Drawing.Size(89, 13);
             this.label5.TabIndex = 19;
             this.label5.Text = "Wallpaper Height";
             // 
             // heightInput
             // 
-            this.heightInput.Location = new System.Drawing.Point(1323, 1127);
-            this.heightInput.Margin = new System.Windows.Forms.Padding(7);
+            this.heightInput.Location = new System.Drawing.Point(567, 505);
             this.heightInput.Maximum = new decimal(new int[] {
             1600,
             0,
@@ -426,7 +411,7 @@ namespace PA4Draft
             0,
             0});
             this.heightInput.Name = "heightInput";
-            this.heightInput.Size = new System.Drawing.Size(114, 35);
+            this.heightInput.Size = new System.Drawing.Size(49, 20);
             this.heightInput.TabIndex = 18;
             this.heightInput.Value = new decimal(new int[] {
             800,
@@ -437,17 +422,15 @@ namespace PA4Draft
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(1316, 970);
-            this.label6.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label6.Location = new System.Drawing.Point(564, 435);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(190, 29);
+            this.label6.Size = new System.Drawing.Size(86, 13);
             this.label6.TabIndex = 17;
             this.label6.Text = "Wallpaper Width";
             // 
             // widthInput
             // 
-            this.widthInput.Location = new System.Drawing.Point(1323, 1006);
-            this.widthInput.Margin = new System.Windows.Forms.Padding(7);
+            this.widthInput.Location = new System.Drawing.Point(567, 451);
             this.widthInput.Maximum = new decimal(new int[] {
             2400,
             0,
@@ -459,7 +442,7 @@ namespace PA4Draft
             0,
             0});
             this.widthInput.Name = "widthInput";
-            this.widthInput.Size = new System.Drawing.Size(114, 35);
+            this.widthInput.Size = new System.Drawing.Size(49, 20);
             this.widthInput.TabIndex = 16;
             this.widthInput.Value = new decimal(new int[] {
             1200,
@@ -472,10 +455,9 @@ namespace PA4Draft
             this.up.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("up.BackgroundImage")));
             this.up.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.up.Enabled = false;
-            this.up.Location = new System.Drawing.Point(2063, 292);
-            this.up.Margin = new System.Windows.Forms.Padding(7);
+            this.up.Location = new System.Drawing.Point(884, 131);
             this.up.Name = "up";
-            this.up.Size = new System.Drawing.Size(51, 40);
+            this.up.Size = new System.Drawing.Size(22, 18);
             this.up.TabIndex = 20;
             this.up.UseVisualStyleBackColor = true;
             this.up.Click += new System.EventHandler(this.Up_Click);
@@ -485,10 +467,9 @@ namespace PA4Draft
             this.down.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("down.BackgroundImage")));
             this.down.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.down.Enabled = false;
-            this.down.Location = new System.Drawing.Point(2063, 341);
-            this.down.Margin = new System.Windows.Forms.Padding(7);
+            this.down.Location = new System.Drawing.Point(884, 153);
             this.down.Name = "down";
-            this.down.Size = new System.Drawing.Size(51, 40);
+            this.down.Size = new System.Drawing.Size(22, 18);
             this.down.TabIndex = 21;
             this.down.UseVisualStyleBackColor = true;
             this.down.Click += new System.EventHandler(this.Down_Click);
@@ -496,17 +477,18 @@ namespace PA4Draft
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(536, 0);
+            this.listView1.Location = new System.Drawing.Point(230, 0);
+            this.listView1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(8, 8);
+            this.listView1.Size = new System.Drawing.Size(6, 6);
             this.listView1.TabIndex = 22;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2170, 1347);
+            this.ClientSize = new System.Drawing.Size(995, 606);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.down);
             this.Controls.Add(this.up);
@@ -528,7 +510,6 @@ namespace PA4Draft
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "MainForm";
             this.Text = "Wallpaper Design";
             this.toolStrip1.ResumeLayout(false);
