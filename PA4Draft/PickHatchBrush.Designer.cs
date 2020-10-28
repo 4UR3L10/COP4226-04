@@ -135,11 +135,11 @@ namespace PA4Draft
             "WideDownwardDiagonal",
             "WideUpwardDiagonal",
             "ZigZag"});
-            this.comboBoxHatchStylePickHatchBrush.Location = new System.Drawing.Point(126, 34);
-            this.comboBoxHatchStylePickHatchBrush.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.comboBoxHatchStylePickHatchBrush.Location = new System.Drawing.Point(294, 70);
             this.comboBoxHatchStylePickHatchBrush.Name = "comboBoxHatchStylePickHatchBrush";
-            this.comboBoxHatchStylePickHatchBrush.Size = new System.Drawing.Size(240, 21);
+            this.comboBoxHatchStylePickHatchBrush.Size = new System.Drawing.Size(560, 37);
             this.comboBoxHatchStylePickHatchBrush.TabIndex = 1;
+            this.comboBoxHatchStylePickHatchBrush.SelectedIndexChanged += new System.EventHandler(this.comboBoxHatchStylePickHatchBrush_SelectedIndexChanged);
             // 
             // trackBarOpacityBackgroundPickHatchBrush
             // 

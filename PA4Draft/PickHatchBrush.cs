@@ -13,10 +13,15 @@ namespace PA4Draft
 {
     public partial class PickHatchBrush : Form
     {
+        // Global Variables.
+        public String StyleValue = "";
+
         // Constructor.
         public PickHatchBrush()
         {
             InitializeComponent();
+            comboBoxHatchStylePickHatchBrush.SelectedIndex = 0;
+            StyleValue = comboBoxHatchStylePickHatchBrush.Text;
             colorForeground = SystemColors.ButtonFace;
             colorBackground = SystemColors.ButtonFace;
         }
@@ -52,9 +57,14 @@ namespace PA4Draft
         private void trackBarOpacityBackgroundPickHatchBrush_ValueChanged(object sender, EventArgs e)
         {
             colorBackground = Color.FromArgb((byte)trackBarOpacityBackgroundPickHatchBrush.Value, colorBackground.R, colorBackground.G, colorBackground.B);
-            buttonForegroundColorPickHatchBrushBrush.BackColor = colorBackground;
+            buttonBackgroundColorPickHatchBrush.BackColor = colorBackground;
         }
 
-        // Missing Dropdown.
+        // Listbox Implementation.
+        private void comboBoxHatchStylePickHatchBrush_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBoxHatchStylePickHatchBrush.Text = comboBoxHatchStylePickHatchBrush.SelectedItem.ToString();
+            StyleValue = comboBoxHatchStylePickHatchBrush.Text;
+        }
     }
 }
