@@ -46,14 +46,14 @@ namespace PA4Draft
             buttonBackgroundColorPickHatchBrush.BackColor = colorBackground;
         }
 
-        // Slider to change the opcacity of the Foreground Color
+        // Slider to change the opacity of the Foreground Color
         private void trackBarOpacityForegoundPickHatchBrush_ValueChanged(object sender, EventArgs e)
         {
             colorForeground = Color.FromArgb((byte)trackBarOpacityForegoundPickHatchBrush.Value, colorForeground.R, colorForeground.G, colorForeground.B);
             buttonForegroundColorPickHatchBrushBrush.BackColor = colorForeground;
         }
 
-        // Slider to change the opcacity of the Foreground Color
+        // Slider to change the opacity of the Foreground Color
         private void trackBarOpacityBackgroundPickHatchBrush_ValueChanged(object sender, EventArgs e)
         {
             colorBackground = Color.FromArgb((byte)trackBarOpacityBackgroundPickHatchBrush.Value, colorBackground.R, colorBackground.G, colorBackground.B);
@@ -65,6 +65,11 @@ namespace PA4Draft
         {
             comboBoxHatchStylePickHatchBrush.Text = comboBoxHatchStylePickHatchBrush.SelectedItem.ToString();
             StyleValue = comboBoxHatchStylePickHatchBrush.Text;
+        }
+
+        private void buttonOKPickHatchBrush_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

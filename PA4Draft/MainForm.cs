@@ -572,7 +572,33 @@ namespace PA4Draft
                 }
                 else
                 {
+                    Color startColor = pckTxtrBrsh.colorStart;
+                    Color endColor = pckTxtrBrsh.colorEnd;
+                    String Style = pckTxtrBrsh.LinearModes;
+                    LinearGradientMode defeaultMode = LinearGradientMode.BackwardDiagonal;
+                    Rectangle rectangleShape = pckTxtrBrsh.newRectangle;
 
+                    switch (Style)
+                    {
+                        case "BackwardDiagonal":
+                            defeaultMode = LinearGradientMode.BackwardDiagonal;
+                            break;
+                        case "ForwardDiagonal":
+                            defeaultMode = LinearGradientMode.ForwardDiagonal;
+                            break;
+                        case "Horizontal":
+                            defeaultMode = LinearGradientMode.Horizontal;
+                            break;
+                        case "Vertical":
+                            defeaultMode = LinearGradientMode.Vertical;
+                            break;
+                        default:
+                            break;
+                    }
+
+                    shapes[shapeList.SelectedIndex].fillBrush = new LinearGradientBrush(rectangleShape, startColor, endColor, defeaultMode);
+                    updateTileDesign();
+                    updateShapeList(shapeList.SelectedIndex);
                 }
             }
         }

@@ -202,6 +202,7 @@ namespace PA4Draft
             this.buttonOKPickHatchBrush.TabIndex = 15;
             this.buttonOKPickHatchBrush.Text = "OK";
             this.buttonOKPickHatchBrush.UseVisualStyleBackColor = true;
+            this.buttonOKPickHatchBrush.Click += new System.EventHandler(this.buttonOKPickHatchBrush_Click);
             // 
             // PickHatchBrush
             // 
